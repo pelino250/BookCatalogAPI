@@ -1,0 +1,11 @@
+GET http://localhost:8000/api/authors/
+###
+GET http://localhost:8000/authors/1
+###
+
+POST http://localhost:8000/api/authors/
+Content-Type: application/json
+
+{
+  "name": "Author 1"
+}
